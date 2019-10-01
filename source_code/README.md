@@ -210,4 +210,53 @@ For the prototype we add the following components
 
 ## So the first component is the home screen.
 
+Init we have the base URL:
+
+	localhost:4200
+
+This is represented by the:
+
+	app.component.html
+
+Which is located in the:
+
+	src/app/app.component.html
+
+Currently this html page/template has only the router-outlet
+
+	<router-outlet></router-outlet>
+
+The structure of the Angular Project is that the index.html has the:
+
+	<app-root></app-root>
+
+This is the app.component.html.
+
+## Routing the home page to base automatically.
+
+We use the routes to accomplish this task.
+
+	  { 
+	    path:  '', 
+	    redirectTo:  'home', 
+	    pathMatch:  'full' 
+	  },
+
+
+If the path is empty then it automatically redirects to the home page.
+
+## RouterLink
+
+Additionally using routerLink allows us to create clickable elements that change the path, when clicked.
+
+	[routerLink]="'/order-screen'"
+
+We can put this inside the html template in tags that are commonly used for href.
+
+For example
+
+	<a [routerLink]="'/order-screen'">
+
+	<div [routerLink]="'/order-screen'">
+
 

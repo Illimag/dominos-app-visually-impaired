@@ -28,7 +28,7 @@ Use this command to install npm.
 
 Once npm is installed we can install the angular cli with the following command.
 
-		sudo npm install -g @angular/cli
+	sudo npm install -g @angular/cli
 
 Once the angular cli is installed let check on the node installation.
 
