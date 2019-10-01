@@ -79,3 +79,9 @@ Then we can launch the local server with the following command:
 Once the project is finished compiling and the web server is launched at a localhost:
 
 	http://localhost:4200/
+
+Currently the prototype is located in:
+
+	/source_code/prototype
+
+
