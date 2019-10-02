@@ -1,0 +1,147 @@
+.background{
+    width: 100%;
+    height: 100%;
+    background-color: #0078ad;
+}
+
+.menu{
+    width: 100%;
+    height: 150px;
+    background-color: #0078ad;
+}
+
+.home_div{
+    height: 100%;
+    width: 45%;
+    background-color: white;
+}
+
+.home{
+    position: absolute;
+    height: 100px;
+    width:100px;
+    left: 30px;
+    top: 20px;
+}
+
+.top-text{
+    margin: 0;
+    font-size: 2.5em;
+    position: absolute;
+    top: 150px;
+    right: 35%;
+    color: white;
+}
+
+.top-text-secondary{
+    margin: 0;
+    font-size: 2.5em;
+    position: absolute;
+    top: 190px;
+    right: 35%;
+    color: white;
+}
+
+.secondary-text{
+    margin: 0;
+    font-size: 1.5em;
+    position: absolute;
+    top: 240px;
+    right: 30%;
+    color: white;
+}
+
+.secondary-text-one{
+    margin: 0;
+    font-size: 1.5em;
+    position: absolute;
+    top: 270px;
+    right: 25%;
+    color: white;
+}
+
+.secondary-text-two{
+    margin: 0;
+    font-size: 1.5em;
+    position: absolute;
+    top: 300px;
+    right: 35%;
+    color: white;
+}
+
+.secondary-text-three{
+    margin: 0;
+    font-size: 1.5em;
+    position: absolute;
+    top: 330px;
+    right: 25%;
+    color: white;
+}
+
+.secondary-text-four{
+    margin: 0;
+    font-size: 1.5em;
+    position: absolute;
+    top: 360px;
+    right: 20%;
+    color: white;
+}
+
+.secondary-text-five{
+    margin: 0;
+    font-size: 1.5em;
+    position: absolute;
+    top: 400px;
+    right: 20%;
+    color: white;
+}
+
+.secondary-text-six{
+    margin: 0;
+    font-size: 1.5em;
+    position: absolute;
+    top: 450px;
+    right: 20%;
+    color: white;
+}
+
+.secondary-text-seven{
+    margin: 0;
+    font-size: 1.5em;
+    position: absolute;
+    top: 490px;
+    right: 20%;
+    color: white;
+}
+
+.secondary-text-eight{
+    margin: 0;
+    font-size: 1.5em;
+    position: absolute;
+    top: 520px;
+    right: 20%;
+    color: white;
+}
+
+.secondary-text-nine{
+    margin: 0;
+    font-size: 2.5em;
+    position: absolute;
+    top: 560px;
+    right: 15%;
+    color: white;
+}
+
+.button1{
+    height: 15%;
+    width: 90%;
+    background-color: #e31836;
+    display: inline-block;
+    margin: 520px 19px 19px 19px;
+}
+
+.button1-text{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}

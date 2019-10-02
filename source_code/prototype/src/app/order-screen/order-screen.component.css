@@ -10,6 +10,21 @@
     background-color: #0078ad;
 }
 
+.home_div{
+    height: 100%;
+    width: 45%;
+    background-color: white;
+}
+
+.home{
+    position: absolute;
+    height: 100px;
+    width:100px;
+    left: 30px;
+    top: 20px;
+}
+
+
 .logo{
     position: absolute;
     height: 100px;
