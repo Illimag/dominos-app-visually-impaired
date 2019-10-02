@@ -259,4 +259,10 @@ For example
 
 	<div [routerLink]="'/order-screen'">
 
+## Dominos Colors
 
+Here are the Domino Colors:
+
+	Blue: #0078ad
+
+	Red: #e31836

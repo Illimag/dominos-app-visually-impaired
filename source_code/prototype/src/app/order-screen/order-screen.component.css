@@ -1,5 +1,62 @@
 .background{
     height: 100%;
     width: 100%;
-    background-color: red;
+    background-color: white;
+}
+
+.menu{
+    width: 100%;
+    height: 150px;
+    background-color: #0078ad;
+}
+
+.logo{
+    position: absolute;
+    height: 100px;
+    width:100px;
+    right: 30px;
+    top: 20px;
+}
+
+.button1{
+    height: 23%;
+    width: 90%;
+    background-color: #e31836;
+    display: inline-block;
+    margin: 19px 19px 19px 19px;
+}
+
+
+.button2{
+    height: 23%;
+    width: 90%;
+    background-color: #e31836;
+    display: inline-block;
+    margin: 0px 19px 19px 19px;
+}
+
+.button3{
+    height: 23%;
+    width: 90%;
+    background-color: #e31836;
+    display: inline-block;
+    margin: 0px 19px 19px 19px;
+}
+
+.button1-text{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+.button2-text{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+.button3-text{
+    color: white;
+    text-align: center;
+    font-size: 2em;
 }
