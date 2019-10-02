@@ -266,3 +266,13 @@ Here are the Domino Colors:
 	Blue: #0078ad
 
 	Red: #e31836
+
+## Build
+
+Here is the command to build the application
+
+	ng build --prod
+
+This will build the application to the 
+
+	/dist
