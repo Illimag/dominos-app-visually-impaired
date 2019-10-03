@@ -1,5 +1,31 @@
 # Prototyping Test
 
+## Prototyping Test Plan
+
+### Testing Objective
+
+I believe that the Domino's App will increase usability and visability when the elements are increased in size.
+
+### Scope
+
+~Twelve Screens, Minimal functionality. Main focus on user being able to select order.
+
+### Testing Scenario
+
+Easy to see the elements on the screen
+
+### Testing Metrics
+
+X and Y coordinates of user tap interaction and screen transition timings.
+
+### Recruiting Criteria
+
+Personas Spectrum Limitation for the Visually Imparied
+
+### Script
+
+Why? Who? What? Where? When? How?
+
 ## Next steps
 
 Implement prototype with fullscreen API in the welcome screen to simulate full screen application experience. 
