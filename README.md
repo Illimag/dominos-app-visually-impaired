@@ -1,8 +1,6 @@
-# Dominos App Visually Impaired
+# Dominos App for the Personas Limitation Spectrum for the Visually Impaired.
 
-## Overview
-
-Building the interface with Angular.JS verison 8.
+## Visual Overview
 
 ![blueprint](images/dominos_visually_impaired_template_upated-01.png)
 
