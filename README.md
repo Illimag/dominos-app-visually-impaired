@@ -1,4 +1,6 @@
-# Dominos App for the Personas Limitation Spectrum for the Visually Impaired.
+# Dominos App for the Visually Impaired.
+
+Based on the Personas Limitation Spectrum from the Inclusive Design Methodology.
 
 ## Visual Overview
 
