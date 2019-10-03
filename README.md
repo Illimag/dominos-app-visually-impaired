@@ -1,87 +1,40 @@
 # Dominos App for the Visually Impaired.
 
-Based on the Personas Limitation Spectrum from the Inclusive Design Methodology.
-
 ## Visual Overview
 
 ![blueprint](images/dominos_visually_impaired_template_upated-01.png)
 
-## Development of the Prototype
+## Context
 
-The development environment is Windows 10 with Ubuntu 16 subsystem.
+### Prototype
 
-Firstly update and upgrade the Linux Environment.
+This Web Application Prototype built in Angular 8 is based on the Personas Limitation Spectrum from the Inclusive Design Methodology.
 
-	sudo apt-get update
+### Example of a Live Use Case
 
-Then
+According to the document 
 
-	sudo apt-get upgrade
+	20190613153319483_DominosPetition.pdf 
 
-Now we can install the Angular CLI.
+located in this repository, in the case between Domino's Pizza LLC vs Guillermo Robles states the question:
 
-We need to have npm installed first.
+	Whether Title III of the ADA requires a website
+	or mobile phone application that offers goods or services
+	to the public to satisfy discrete accessibility requirements
+	with respect to individuals with disabilities?
 
-Use this command to install npm.
+### Hypothesis Driven Design
 
-	sudo apt install npm
+The following are hypotheses, experiments, and evidence according to the hypothesis driven design process. 
 
-Once npm is installed we can install the angular cli with the following command.
+Hypothesis: Increasing the size of the elements of the Dominos Application will increase usability and visability.
 
-	sudo npm install -g @angular/cli
+Experiment: Testing this application on individuals with Visual Impairment.
 
-Once the angular cli is installed let check on the node installation.
+Evidence: The hypothesis is correct when the individuals who normally can not order from Domino's can order using the elements of increased size.
 
-The reason why this is important is because the cli uses a node verison that is 10.9 or greater.
+### Design Constraints and Platform Features
 
-As so we will be using nvm which is version control for node.
+The near certain usage of Voice Assistant on Android devices and Vision Accessibility for iOS devices, constrain the design of the application. 
 
-Here is the documentation for nvm:
-
-	https://github.com/nvm-sh/nvm
-
-If this is a dead link just do a search for nvm node verison control.
-
-Let's install nvm.
-
-	curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
-
-After install we can test using
-
-	command -v nvm
-
-But make sure to restart terminal shell before testing.
-
-So now we just need to install the specific node verison with nvm.
-
-	nvm install 10.10.0
-
-After install we can test installation with:
-
-	node -v
-
-Now we can use the CLI to create our Angular Project
-
-	ng new projectName
-
-projectName is the name we will be using.
-
-Once the project is finished building.
-
-We can cd into the directory.
-
-	cd projectName
-
-Then we can launch the local server with the following command:
-
-	ng serve
-
-Once the project is finished compiling and the web server is launched at a localhost:
-
-	http://localhost:4200/
-
-Currently the prototype is located in:
-
-	/source_code/prototype
-
-
+Additionally, design details that are purely aesthetic will be of increased difficulty for Personas Limitation Spectrum with Visual Impairment to see. 
