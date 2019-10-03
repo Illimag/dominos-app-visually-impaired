@@ -2,7 +2,13 @@
 
 ## Next steps
 
-First step is to complete the prototype to a certain extent.
+Implement prototype with fullscreen API in the welcome screen to simulate full screen application experience. 
+
+Backend scripts to detect X and Y coordinates of user tap interaction. 
+
+As well as screen transition timings. 
+
+Record into json after checkout button is selected.
 
 Currently, the prototype is built with Angular 8.
 
@@ -16,4 +22,4 @@ Update the designs.
 
 ## Heatmap / Eyeball Tracking Implementation
 
-The main focus is to implement a Heatmap / Eyeball tracking functionality on the Angular 8 prototype.
+Implement a Heatmap / Eyeball tracking functionality on the Angular 8 prototype.
