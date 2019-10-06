@@ -11,6 +11,7 @@ import { OrderCrustsComponent } from './order-crusts/order-crusts.component';
 import { OrderSizesComponent } from './order-sizes/order-sizes.component';
 import { OrderDetailsComponent } from './order-details/order-details.component';
 import { CheckoutComponent } from './checkout/checkout.component';
+import { YourOrdersComponent } from './your-orders/your-orders.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CheckoutComponent } from './checkout/checkout.component';
     OrderCrustsComponent,
     OrderSizesComponent,
     OrderDetailsComponent,
-    CheckoutComponent
+    CheckoutComponent,
+    YourOrdersComponent
   ],
   imports: [
     BrowserModule,
