@@ -53,7 +53,7 @@ Host Web App to Web Server
 Implement Google Analytics to web app.
 
 ### Features
-                                                                                                                                    
+                                                                                                        
 Currently, the prototype is built with Angular 8.
 
 - Finish up the components.

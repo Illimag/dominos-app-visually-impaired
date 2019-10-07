@@ -346,3 +346,97 @@ Here is the command to build the application
 This will build the application to the 
 
 	/dist
+
+## Creating additional components
+
+To create additional components, use the CLI to generate the component.
+
+Make sure to be in the dir that has the angular project.
+
+Use this command
+
+	ng gnerate component componentName --skipTests
+
+Then you will be able to see that the component has been added in the 
+
+	app.module.ts
+
+If we need to add routing for the component you can do it here
+
+	app-routing.module.ts
+
+Just add the component for example
+
+	import { YourOrdersComponent } from './your-orders/your-orders.component';
+
+Then just add a path to the const
+
+## Pushing to Github pages
+
+I've decided to push the angular prototype to my github pages.
+
+Firstly I installed the Angular CLI's dependency for github pages
+
+	npm i -g angular-cli-ghpages
+
+I needed to manually install the following
+
+	npm i @angular-devkit/architect
+
+	npm i @angular-devkit/core
+
+	npm i @angular-devkit/schematics
+
+Now use this commnad
+
+	ng build --prod --base-href "https://githubname.github.io/reponame"
+
+So make sure to have the url after --base-href changed to the specific repo.
+
+So for example, my github username is 
+
+	jaemnkm
+
+and so my github pages will be
+
+	jaemnkm.github.io
+
+but because I have it connected to an external url
+
+	jaemnkm.com
+
+the first part is 
+
+	https://jaemnkm.com
+
+after that the repo of the angular project in this case
+
+	dominos_app_visually_impaired
+
+And then it builds out in the prototype repo
+
+so add it all together
+
+	https://jaemnkm.com/dominos_app_visually_impaired/prototype
+
+After the project is finished building
+
+now push it to Github
+
+	npx ngh --no-silent
+
+I was running into problems with 404, and this command solved it.
+
+Also important to note make sure all images use a relative
+
+	./
+
+instead of
+
+	../
+
+Because later when it compiles and is deployed on Github pages, will run into issues.
+
+Now the project is deployed in a seperate branch called
+
+	gh-pages
