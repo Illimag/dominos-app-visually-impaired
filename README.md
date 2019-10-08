@@ -2,7 +2,13 @@
 
 ## Visual Overview
 
-![blueprint](images/dominos_visually_impaired_template_upated-01.png)
+### Voice Assistant Hidden Element Overview Readout
+
+![voice_assistant_hidden_element_readout](images/voice_assistant_functionality_overview.png)
+
+### Application Screen Mockups
+
+![screen_mockups](images/dominos_visually_impaired_template_upated-01.png)
 
 ## Context
 
