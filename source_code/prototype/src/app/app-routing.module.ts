@@ -10,12 +10,17 @@ import { OrderSizesComponent } from './order-sizes/order-sizes.component';
 import { OrderDetailsComponent } from './order-details/order-details.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { YourOrdersComponent } from './your-orders/your-orders.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 const routes: Routes = [
   { 
     path:  '', 
-    redirectTo:  'home', 
+    redirectTo:  'welcome', 
     pathMatch:  'full' 
+  },
+  {
+    path: 'welcome',
+    component: WelcomeComponent
   },
   {
     path: 'home',
