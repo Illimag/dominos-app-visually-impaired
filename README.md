@@ -82,6 +82,40 @@ The Voice Assistant functionality of the Samsung S10 5G device can be used by ta
 
 When the user taps with three fingers all the elements will be read by Voice Assistant.
 
+### Fullscreen API and the Welcome Component
+
+In the welcome component we have a Fullscreen API call that takes the web application and turns it closer to a Progressive web app. By the means of taking up the entire screen space of the device of which it is being triggered.
+
+The details of the implementation is as follows.
+
+The welcome screen is the first route because of the
+
+	app-routing.modules.ts
+
+	{ 
+    path:  '', 
+    redirectTo:  'welcome', 
+    pathMatch:  'full' 
+  	},
+
+There is an clickable div element with an onclick event that calls the launchFullscreen function API.
+
+	onclick="launchFullscreen(document.documentElement);"
+
+Added the Fullscreen API to the assets/js folder
+
+	function launchFullscreen(element) {
+	if(element.requestFullscreen) {
+	  element.requestFullscreen();
+	} else if(element.mozRequestFullScreen) {
+	  element.mozRequestFullScreen();
+	} else if(element.webkitRequestFullscreen) {
+	  element.webkitRequestFullscreen();
+	} else if(element.msRequestFullscreen) {
+	  element.msRequestFullscreen();
+	}
+  }
+
 ## Source Code
 
 The source code for the prototype is located in
