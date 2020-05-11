@@ -440,3 +440,7 @@ Because later when it compiles and is deployed on Github pages, will run into is
 Now the project is deployed in a seperate branch called
 
 	gh-pages
+
+## NOTE
+
+After redirecting the URL to Adobe Portfolio, this prototype no longer is hosted with Github pages.
